@@ -25,7 +25,7 @@ struct Target_CountdownApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
         .modelContainer(sharedModelContainer)
     }

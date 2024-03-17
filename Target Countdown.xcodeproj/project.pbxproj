@@ -12,6 +12,11 @@
 		F2E478B42BA5EA350081A825 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E478B32BA5EA350081A825 /* Item.swift */; };
 		F2E478B62BA5EA370081A825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E478B52BA5EA370081A825 /* Assets.xcassets */; };
 		F2E478B92BA5EA370081A825 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E478B82BA5EA370081A825 /* Preview Assets.xcassets */; };
+		F2E478C02BA703010081A825 /* TargetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E478BF2BA703010081A825 /* TargetItem.swift */; };
+		F2E478C22BA71CBD0081A825 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E478C12BA71CBD0081A825 /* MainView.swift */; };
+		F2E478C42BA71D250081A825 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E478C32BA71D250081A825 /* SettingView.swift */; };
+		F2E478C62BA720870081A825 /* SingleTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E478C52BA720870081A825 /* SingleTargetView.swift */; };
+		F2E478C92BA732C00081A825 /* WaveSharp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E478C82BA732C00081A825 /* WaveSharp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		F2E478B32BA5EA350081A825 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F2E478B52BA5EA370081A825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2E478B82BA5EA370081A825 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2E478BF2BA703010081A825 /* TargetItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetItem.swift; sourceTree = "<group>"; };
+		F2E478C12BA71CBD0081A825 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F2E478C32BA71D250081A825 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		F2E478C52BA720870081A825 /* SingleTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTargetView.swift; sourceTree = "<group>"; };
+		F2E478C82BA732C00081A825 /* WaveSharp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveSharp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 				F2E478AF2BA5EA350081A825 /* Target_CountdownApp.swift */,
 				F2E478B12BA5EA350081A825 /* ContentView.swift */,
 				F2E478B32BA5EA350081A825 /* Item.swift */,
+				F2E478C12BA71CBD0081A825 /* MainView.swift */,
+				F2E478C52BA720870081A825 /* SingleTargetView.swift */,
+				F2E478C72BA727DA0081A825 /* Structs */,
+				F2E478C32BA71D250081A825 /* SettingView.swift */,
+				F2E478BF2BA703010081A825 /* TargetItem.swift */,
 				F2E478B52BA5EA370081A825 /* Assets.xcassets */,
 				F2E478B72BA5EA370081A825 /* Preview Content */,
 			);
@@ -68,6 +83,14 @@
 				F2E478B82BA5EA370081A825 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2E478C72BA727DA0081A825 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				F2E478C82BA732C00081A825 /* WaveSharp.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E478B22BA5EA350081A825 /* ContentView.swift in Sources */,
+				F2E478C02BA703010081A825 /* TargetItem.swift in Sources */,
 				F2E478B42BA5EA350081A825 /* Item.swift in Sources */,
+				F2E478C92BA732C00081A825 /* WaveSharp.swift in Sources */,
+				F2E478C42BA71D250081A825 /* SettingView.swift in Sources */,
+				F2E478C22BA71CBD0081A825 /* MainView.swift in Sources */,
 				F2E478B02BA5EA350081A825 /* Target_CountdownApp.swift in Sources */,
+				F2E478C62BA720870081A825 /* SingleTargetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
