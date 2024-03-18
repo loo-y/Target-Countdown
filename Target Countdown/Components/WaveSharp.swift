@@ -10,8 +10,8 @@ import SwiftUI
 // 波浪形状
 struct WaveShape: Shape {
     var progress: Double // 输入的进度 (0-100)
-    var amplitude: CGFloat = 5 // 波浪的振幅
-    var waveLength: CGFloat = 90 // 波浪的长度
+    var amplitude: CGFloat = 3 // 波浪的振幅
+    var waveLength: CGFloat = 10 // 波浪的长度
 
     func path(in rect: CGRect) -> Path {
         var path = Path()
