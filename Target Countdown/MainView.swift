@@ -13,30 +13,30 @@ import Foundation
 
 
 struct MainView: View {
-    
-    let startDate = DateUtility.createDate(year: 2023, month: 1, day: 2)
-    
     var body: some View {
             TabView {
-                VStack{
-                    HStack{
-//                        SingleTargetView(progress: 15)
-//                        SingleTargetView(progress: 10)
-                    }.frame(width: 50)
-                    HStack{
-                        SingleTargetView(progress: 20, startTime: startDate, targetTime: DateUtility.createDate(year: 2024, month: 5, day: 2))
-                    }
-                    
-                }
-                .tabItem {
-                    Image(systemName: "house.fill")
-                    Text("首页")
-                }
-                .tag(0) // 可选，用于区分各个Tab
-                
                 SettingView()
+                    .tabItem {
+                        Image(systemName: "gearshape.fill")
+                        Text("设置")
+                    }
+                    .tag(1)
+                
+                HomeView()
+                    .tabItem {
+                        Image(systemName: "house.fill")
+                        Text("首页")
+                    }
+                    .tag(0)
+                
+                
             }
+//            .tint(Color.black) // 设置 Tab 按钮的颜色
+            .ignoresSafeArea()
+//            .background(Color.black) // 设置背景颜色
+//            .preferredColorScheme(.dark) // 设置暗色模式
         }
+        
 }
 
 

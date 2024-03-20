@@ -9,16 +9,28 @@ import SwiftUI
 
 struct SettingView: View {
     var body: some View {
-        VStack{
-            Text("Settings")
+        NavigationView {
+            
+            VStack{
+                Text("Settings")
+            }
+            .background(Color.red)
+            
+            .toolbar{
+                ToolbarItem {
+                    Button("test") {
+                    }
+                }
+                
+            }
+            
         }
-        .tabItem {
-            Image(systemName: "gearshape.fill")
-            Text("设置")
-        }
-        .tag(1) // 可选，用于区分各个Tab
+        .background(Color.red)
     }
+    
+        
 }
+
 
 #Preview {
     SettingView()

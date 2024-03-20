@@ -18,6 +18,8 @@
 		F2E478C62BA720870081A825 /* SingleTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E478C52BA720870081A825 /* SingleTargetView.swift */; };
 		F2E478C92BA732C00081A825 /* WaveSharp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E478C82BA732C00081A825 /* WaveSharp.swift */; };
 		F2E478CB2BA88C7A0081A825 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E478CA2BA88C7A0081A825 /* Utility.swift */; };
+		F2E478CD2BAB19CE0081A825 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E478CC2BAB19CE0081A825 /* HomeView.swift */; };
+		F2E478CF2BAB2B210081A825 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E478CE2BAB2B210081A825 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		F2E478C52BA720870081A825 /* SingleTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTargetView.swift; sourceTree = "<group>"; };
 		F2E478C82BA732C00081A825 /* WaveSharp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveSharp.swift; sourceTree = "<group>"; };
 		F2E478CA2BA88C7A0081A825 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		F2E478CC2BAB19CE0081A825 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F2E478CE2BAB2B210081A825 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +73,12 @@
 				F2E478B12BA5EA350081A825 /* ContentView.swift */,
 				F2E478B32BA5EA350081A825 /* Item.swift */,
 				F2E478C12BA71CBD0081A825 /* MainView.swift */,
-				F2E478C52BA720870081A825 /* SingleTargetView.swift */,
 				F2E478C72BA727DA0081A825 /* Components */,
+				F2E478CC2BAB19CE0081A825 /* HomeView.swift */,
 				F2E478C32BA71D250081A825 /* SettingView.swift */,
+				F2E478C52BA720870081A825 /* SingleTargetView.swift */,
 				F2E478BF2BA703010081A825 /* TargetItem.swift */,
+				F2E478CE2BAB2B210081A825 /* TestView.swift */,
 				F2E478CA2BA88C7A0081A825 /* Utility.swift */,
 				F2E478B52BA5EA370081A825 /* Assets.xcassets */,
 				F2E478B72BA5EA370081A825 /* Preview Content */,
@@ -168,7 +174,9 @@
 			files = (
 				F2E478B22BA5EA350081A825 /* ContentView.swift in Sources */,
 				F2E478C02BA703010081A825 /* TargetItem.swift in Sources */,
+				F2E478CF2BAB2B210081A825 /* TestView.swift in Sources */,
 				F2E478CB2BA88C7A0081A825 /* Utility.swift in Sources */,
+				F2E478CD2BAB19CE0081A825 /* HomeView.swift in Sources */,
 				F2E478B42BA5EA350081A825 /* Item.swift in Sources */,
 				F2E478C92BA732C00081A825 /* WaveSharp.swift in Sources */,
 				F2E478C42BA71D250081A825 /* SettingView.swift in Sources */,
